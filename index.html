@@ -30,8 +30,8 @@
                 </div>
                 <div class="md:hidden flex items-center">
                     <button class="outline-none mobile-menu-button">
-                        <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" 
-                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                        <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
@@ -53,7 +53,7 @@
                     <p class="text-white">Dilihat: <span id="page-views-count">0</span> kali | Download: <span id="download-count">0</span> kali</p>
                 </div>
                 <div class="mt-6">
-                    <a href="./apk/" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+                    <a href="./apk/app-arm64-v8a-release.apk" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
                         <i class="fas fa-download mr-2"></i>Download APK
                     </a>
                 </div>
@@ -75,7 +75,7 @@
                         Data Anda tidak pernah meninggalkan perangkat Anda. Tidak ada koneksi internet diperlukan untuk menyimpan dan mengakses kata sandi Anda.
                     </p>
                 </div>
-                
+
                 <div class="bg-pink-50 p-8 rounded-xl shadow-md text-center hover:shadow-lg transition-shadow duration-300">
                     <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-lock text-pink-600 text-2xl"></i>
@@ -85,7 +85,7 @@
                         Perlindungan tingkat militer dengan enkripsi AES-256 untuk menjaga kerahasiaan kata sandi dan catatan Anda.
                     </p>
                 </div>
-                
+
                 <div class="bg-pink-50 p-8 rounded-xl shadow-md text-center hover:shadow-lg transition-shadow duration-300">
                     <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-mobile-alt text-pink-600 text-2xl"></i>
@@ -206,7 +206,7 @@
         // Mobile menu toggle
         const mobileMenuButton = document.querySelector('.mobile-menu-button');
         const mobileMenu = document.querySelector('.mobile-menu');
-        
+
         if(mobileMenuButton && mobileMenu) {
             mobileMenuButton.addEventListener('click', () => {
                 mobileMenu.classList.toggle('hidden');
